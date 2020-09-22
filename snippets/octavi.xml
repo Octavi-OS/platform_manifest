@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="snippets/remove.xml" />
+
+  <!-- Octavi Repos -->
+  <project name="platform_bionic" path="bionic" remote="octavi" />
+  <project name="platform_build_make" path="build/make" remote="octavi" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project name="platform_blueprint" path="build/blueprint" remote="octavi" />
+  <project name="platform_build_soong" path="build/soong" remote="octavi" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="tools/metalava" name="platform_tools_metalava" remote="octavi" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="octavi" />
+
+  <!-- External -->
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="octavi" />
+  <project path="external/guice" name="platform_external_guice" remote="octavi" />
+  <project path="external/libcxx" name="platform_external_libcxx" remote="octavi" /> 
+  <project path="external/selinux" name="platform_external_selinux" remote="octavi" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="octavi" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="octavi" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="octavi" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="octavi" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="octavi" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="octavi" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="octavi" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="octavi" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="octavi" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="octavi" />
+  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="octavi" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="octavi" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="octavi" />
+  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="octavi" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="octavi" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="octavi" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="octavi" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="octavi" />
+  <project path="hardware/octavi/interfaces" name="platform_hardware_octavi_interfaces" remote="octavi" />
+  <project path="hardware/qcom-caf/bt" name="platform_hardware_qcom_bt" remote="octavi" revision="11-caf" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="octavi" revision="11-caf" />
+
+  <!-- CAF Hals -->
+  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="octavi" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" remote="octavi" revision="11-caf-sdm845"/>
+  <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" remote="octavi" revision="11-caf-sdm845"/>
+  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" remote="octavi" revision="11-caf-sdm845"/>
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
+  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="octavi" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="octavi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="octavi" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="octavi" />
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="octavi" />
+
+  <!-- Services -->
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="octavi" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="octavi" />
+
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" remote="octavi" />
+  <project path="system/vold" name="platform_system_vold" remote="octavi" />
+  <project path="system/netd" name="platform_system_netd" remote="octavi" />
+  <project path="system/bt" name="platform_system_bt" remote="octavi" />
+  <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="octavi" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="octavi" />
+
+  <!-- Device/qcpm -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="octavi" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="octavi" />
+  <project path="device/octavi/sepolicy" name="platform_device_octavi_sepolicy" remote="octavi" />
+
+  <!-- Vendor -->
+  <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="octavi" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="octavi" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="octavi" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="octavi" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="octavi" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="octavi" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="octavi" />
+
+</manifest>
