@@ -86,6 +86,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
   <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="octavi" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="octavi" />
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="octavi" />
 
