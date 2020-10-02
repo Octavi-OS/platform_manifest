@@ -125,5 +125,6 @@
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="octavi" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="octavi" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="octavi" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_commonsys-intf_display" remote="octavi" />
 
 </manifest>
