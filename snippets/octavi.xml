@@ -26,6 +26,7 @@
   <project path="external/guice" name="platform_external_guice" remote="octavi" />
   <project path="external/libcxx" name="platform_external_libcxx" remote="octavi" /> 
   <project path="external/selinux" name="platform_external_selinux" remote="octavi" />
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="octavi" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="octavi" />
