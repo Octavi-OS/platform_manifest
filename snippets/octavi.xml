@@ -111,6 +111,7 @@
   <project path="system/bt" name="platform_system_bt" remote="octavi" />
   <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="octavi" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="octavi" />
+  <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="octavi" />
 
   <!-- Device/qcpm -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="octavi" />
