@@ -119,6 +119,7 @@
   <!-- Device/qcpm -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="octavi" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="octavi" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="octavi" />
   <project path="device/octavi/sepolicy" name="platform_device_octavi_sepolicy" remote="octavi" />
 
   <!-- Vendor -->
