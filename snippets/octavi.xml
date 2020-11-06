@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <include name="snippets/remove.xml" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <remote name="sagar-gitlab"
+          fetch="https://gitlab.com/sagarrokade006"
+          revision="eleven" />
 
   <!-- Octavi Repos -->
   <project name="platform_bionic" path="bionic" remote="octavi" />
@@ -124,6 +132,7 @@
 
   <!-- Vendor -->
   <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
+  <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="sagar-gitlab" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="octavi" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="octavi" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="octavi" />
