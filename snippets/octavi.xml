@@ -88,6 +88,7 @@
   <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" remote="octavi" revision="11-caf-msm8998"/>
 
   <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="octavi" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
   <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
@@ -129,5 +130,9 @@
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="octavi" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="octavi" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="octavi" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_commonsys-intf_bluetooth" remote="octavi" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_commonsys_system_bt" remote="octavi" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="octavi" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="octavi" />
 
 </manifest>
