@@ -14,7 +14,7 @@ repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 11
 Then to sync up:
 
 ```
-repo sync -c -f --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j8
+repo sync -c -f --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc)
 ```
 
 ---------------------------------------------------------------------------------------
