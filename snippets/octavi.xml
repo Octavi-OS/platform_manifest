@@ -103,6 +103,7 @@
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="octavi" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="octavi" />
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="octavi" />
+  <project path="packages/apps/PotatoPlugins" name="platform_packages_apps_PotatoPlugins" remote="octavi" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="octavi" />
