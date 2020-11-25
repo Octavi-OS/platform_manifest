@@ -97,6 +97,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="octavi" />
+  <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="octavi" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
   <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
@@ -133,6 +134,7 @@
 
   <!-- Vendor -->
   <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
+  <project path="vendor/support" name="platform_vendor_support" remote="octavi" />
   <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="sagar-gitlab" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="octavi" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="octavi" />
