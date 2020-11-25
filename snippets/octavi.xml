@@ -22,6 +22,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project name="platform_blueprint" path="build/blueprint" remote="octavi" />
+  <project name="platform_development" path="development" remote="octavi" />
   <project name="platform_build_soong" path="build/soong" remote="octavi" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -36,6 +37,7 @@
   <project path="external/selinux" name="platform_external_selinux" remote="octavi" />
   <project path="external/zlib" name="platform_external_zlib" remote="octavi" />
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="octavi" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="octavi" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="octavi" />
@@ -98,6 +100,7 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="octavi" />
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="octavi" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="octavi" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
   <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
