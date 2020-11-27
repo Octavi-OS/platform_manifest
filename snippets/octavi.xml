@@ -102,6 +102,7 @@
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="octavi" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="octavi" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="octavi" />
   <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="octavi" />
