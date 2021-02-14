@@ -29,6 +29,7 @@
   </project>
   <project path="tools/metalava" name="platform_tools_metalava" remote="octavi" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="octavi" />
+  <project path="libcore" name="platform_libcore" remote="octavi" />
 
   <!-- External -->
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="octavi" />
@@ -102,6 +103,7 @@
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="octavi" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="octavi" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="octavi" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="octavi" />
   <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
