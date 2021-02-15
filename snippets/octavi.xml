@@ -32,6 +32,7 @@
   <project path="libcore" name="platform_libcore" remote="octavi" />
 
   <!-- External -->
+  <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="octavi" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="octavi" />
   <project path="external/guice" name="platform_external_guice" remote="octavi" />
   <project path="external/libcxx" name="platform_external_libcxx" remote="octavi" /> 
