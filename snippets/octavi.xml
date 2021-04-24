@@ -51,6 +51,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="octavi" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="octavi" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="octavi" />
+  <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="octavi" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="octavi" />
