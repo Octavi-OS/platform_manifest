@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="octavi" 
+          fetch="https://git@github.com/Octavi-OS" 
+          revision="11" />
+  <default remote="octavi" 
+           sync-c="true" 
+           sync-j="4"  />
+  <project path="manifest" name="platform_manifest" remote="octavi" />
+  <project path="crowdin" name="crowdin" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="octavi" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="octavi" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
+  <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="octavi" />
+
+</manifest>
