@@ -10,7 +10,16 @@
           fetch="https://gitlab.com/sagarrokade006"
           revision="eleven" />
 
-  <!-- Octavi Repos -->
+  <remote name="devs-priv"
+          fetch="ssh://git@github.com/Octavi-OS"
+          revision="11" />
+
+  <remote name="proton"
+          fetch="https://github.com/kdrag0n"
+          revision="master" />
+
+ <!-- Octavi Repos -->
+
   <project name="platform_bionic" path="bionic" remote="octavi" />
   <project name="platform_build_make" path="build/make" remote="octavi" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -33,8 +42,6 @@
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="octavi" />
-
-
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="octavi" />
   <project path="external/guice" name="platform_external_guice" remote="octavi" />
   <project path="external/libcxx" name="platform_external_libcxx" remote="octavi" /> 
@@ -48,7 +55,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="octavi" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="octavi" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="octavi" />
+  <project path="frameworks/base" name="maintainer_fwb" remote="devs-priv" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="octavi" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="octavi" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="octavi" />
@@ -114,11 +121,11 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="octavi" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="octavi" />
-  <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
+  <project path="packages/apps/OctaviLab" name="maintainer_octavilab" remote="devs-priv" />
+  <project path="packages/apps/Settings" name="maintainer_settings" remote="devs-priv" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="octavi" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="octavi" />
-  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="octavi" />
+  <project path="packages/overlays/Themes" name="maintainer_themes" remote="devs-priv" />
   <project path="packages/apps/PotatoPlugins" name="platform_packages_apps_PotatoPlugins" remote="octavi" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="octavi" />
 
@@ -163,5 +170,9 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_commonsys_system_bt" remote="octavi" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="octavi" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="octavi" />
+
+  <!--Clang-->
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" />
 
 </manifest>
