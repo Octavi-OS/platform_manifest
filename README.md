@@ -10,6 +10,11 @@ To initialize your local repository, use a command like this:
 repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 11
 
 ```
+or to save bandwith and space 
+
+```bash
+repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 11 --depth=1
+```
 
 Then to sync up:
 
