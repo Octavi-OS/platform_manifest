@@ -5,6 +5,10 @@
 
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
+ 
+  <remote  name="devices"
+           fetch="https://github.com/OctaviOS-Devices"
+           revision="11" />
 
   <remote name="sagar-gitlab"
           fetch="https://gitlab.com/sagarrokade006"
