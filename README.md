@@ -35,7 +35,7 @@ $ brunch <device_codename>
 ```
 
 ---------------------------------------------------------------------------------------
- FOR OFFICAL Maintainers:
+ For Official Maintainers:
  =======================
 
 To initialize your local repository, use a command like this:
@@ -44,8 +44,16 @@ To initialize your local repository, use a command like this:
 repo init -u https://github.com/Octavi-OS/platform_manifest.git -b maintainers --depth=1
  
 ```
-To apply for offical and get access to a varied array of UI Tweaks, you can email us at applicatiions@octavi-os.com or dm @Irongfly on telegram 
+To apply for offical and get access to a varied array of UI Tweaks, you can email us at applications@octavi-os.com or dm @Irongfly on telegram 
 
+---------------------------------------------------------------------------------------
+ More stuff :
+ =======================
+ 
+ * [**Bringup Guide for Octavi-OS**](https://github.com/Octavi-OS/Stuff)
+ * [**XDA Thread**](https://github.com/Octavi-OS/xda)
+ 
+---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
  Credits:
  =======
@@ -62,3 +70,4 @@ To apply for offical and get access to a varied array of UI Tweaks, you can emai
  * [**Havoc-OS**](https://github.com/Havoc-OS)
  * [**Xtended**](https://github.com/Project-Xtended)
  * [**ColtOS**](https://github.com/Colt-Enigma)
+
