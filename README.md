@@ -10,6 +10,11 @@ To initialize your local repository, use a command like this:
 repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 11
 
 ```
+or to save bandwith and space 
+
+```bash
+repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 11 --depth=1
+```
 
 Then to sync up:
 
@@ -28,6 +33,27 @@ $ . build/envsetup.sh
 $ lunch octavi_$device-userdebug
 $ brunch <device_codename>
 ```
+
+---------------------------------------------------------------------------------------
+ For Official Maintainers:
+ =======================
+
+To initialize your local repository, use a command like this:
+
+```bash
+repo init -u https://github.com/Octavi-OS/platform_manifest.git -b maintainers --depth=1
+ 
+```
+To apply for offical and get access to a varied array of UI Tweaks, you can email us at applications@octavi-os.com or dm @Irongfly on telegram 
+
+---------------------------------------------------------------------------------------
+ More stuff :
+ =======================
+ 
+ * [**Bringup Guide for Octavi-OS**](https://github.com/Octavi-OS/Stuff)
+ * [**XDA Thread**](https://github.com/Octavi-OS/xda)
+ 
+---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
  Credits:
  =======
@@ -44,3 +70,4 @@ $ brunch <device_codename>
  * [**Havoc-OS**](https://github.com/Havoc-OS)
  * [**Xtended**](https://github.com/Project-Xtended)
  * [**ColtOS**](https://github.com/Colt-Enigma)
+
