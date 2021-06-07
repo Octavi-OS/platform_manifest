@@ -33,6 +33,19 @@ $ . build/envsetup.sh
 $ lunch octavi_$device-userdebug
 $ brunch <device_codename>
 ```
+
+---------------------------------------------------------------------------------------
+ FOR OFFICAL Maintainers:
+ =======================
+
+To initialize your local repository, use a command like this:
+
+```bash
+repo init -u https://github.com/Octavi-OS/platform_manifest.git -b maintainers --depth=1
+ 
+```
+To apply for offical and get access to a varied array of UI Tweaks, you can email us at applicatiions@octavi-os.com or dm @Irongfly on telegram 
+
 ---------------------------------------------------------------------------------------
  Credits:
  =======
