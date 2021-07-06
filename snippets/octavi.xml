@@ -133,7 +133,6 @@
   <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="sagar-gitlab" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="octavi" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="octavi" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="octavi" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="octavi" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="octavi" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="octavi" />
