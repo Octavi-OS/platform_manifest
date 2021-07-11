@@ -130,7 +130,7 @@
   <!-- Vendor -->
   <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
   <project path="vendor/support" name="platform_vendor_support" remote="octavi" />
-  <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="sagar-gitlab" />
+  <project path="vendor/google/gms" name="android_vendor_google_gms" clone-depth="1" remote="sagar-gitlab" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="octavi" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="octavi" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="octavi" />
