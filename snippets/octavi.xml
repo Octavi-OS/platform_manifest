@@ -59,7 +59,7 @@
   <project path="external/faceunlock" name="platform_external_faceunlock" remote="octavi" />
   <project path="external/selinux" name="platform_external_selinux" remote="octavi" />
   <project path="external/zlib" name="platform_external_zlib" remote="octavi" />
-  <project path="external/airbnb-lottie" name="platform_external_airbnb-lotti_new" remote="octavi" />
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie_new" remote="octavi" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="octavi" />
 
   <!-- Frameworks -->
