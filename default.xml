@@ -1092,4 +1092,9 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Snippets -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/octavi.xml" />
+  <include name="snippets/lineage.xml" />
+
 </manifest>
