@@ -41,6 +41,9 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="octavi" />
 
   <!-- External -->
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="octavi" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk" remote="octavi" />
+  <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="octavi" />
   <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="octavi" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="octavi" />
 
@@ -53,9 +56,11 @@
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="octavi" />
+  <project path="hardware/lineage/interfaces" name="platform_hardware_lineage_interfaces" remote="octavi" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="octavi" />
 
   <!-- Packages -->
+  <project path="packages/modules/adb" name="platform_packages_modules_adb" groups="pdk" remote="octavi" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="octavi" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="octavi" />
@@ -63,12 +68,16 @@
 
   <!-- System -->
   <project path="system/core" name="platform_system_core" groups="pdk" remote="octavi" />
+  <project path="system/logging" name="platform_system_logging" groups="pdk" remote="octavi" />
   <project path="system/netd" name="platform_system_netd" remote="octavi" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="octavi" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="octavi" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="octavi" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="octavi" />
 
   <!-- Vendor -->
   <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="octavi" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="octavi" />
 
 </manifest>
