@@ -12,7 +12,8 @@
 
   <!-- GitLab -->
   <remote  name="gitlab"
-           fetch="https://gitlab.com"/>
+           revision="12"
+           fetch="https://gitlab.com/beingmishra"/>
 
   <!-- Rootdir -->
   <project path="bionic" name="platform_bionic" groups="pdk" remote="octavi" />
@@ -86,5 +87,6 @@
   <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="octavi" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="octavi" />
+  <project path="vendor/gms" name="platform_vendor_gms" remote="gitlab" clone-depth="1" />
 
 </manifest>
