@@ -71,6 +71,7 @@
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="octavi" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
   <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" groups="pdk" remote="octavi" />
+  <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="octavi" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="octavi" />
@@ -90,6 +91,7 @@
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="octavi" />
 
   <!-- Vendor -->
+  <project path="vendor/lawnchair" name="platform_vendor_lawnchair" remote="octavi" />
   <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
   <project path="vendor/support" name="platform_vendor_support" remote="octavi" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="octavi" />
