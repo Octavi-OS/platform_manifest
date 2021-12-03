@@ -41,6 +41,7 @@
   <!-- Device -->
   <project path="device/octavi/sepolicy" name="platform_device_octavi_sepolicy" remote="octavi" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="octavi" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" groups="qcom,pdk-qcom" remote="octavi" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="octavi" />
 
   <!-- External -->
