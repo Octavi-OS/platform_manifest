@@ -16,6 +16,7 @@
            fetch="https://gitlab.com/beingmishra"/>
 
   <!-- Rootdir -->
+  <project path="art" name="platform_art" remote="octavi" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="octavi" />
   <project path="libcore" name="platform_libcore" remote="octavi" />
   <project path="manifest" name="platform_manifest" remote="octavi" />
@@ -95,6 +96,7 @@
   <project path="vendor/lawnchair" name="platform_vendor_lawnchair" remote="octavi" />
   <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
   <project path="vendor/support" name="platform_vendor_support" remote="octavi" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="platform_vendor_qcom_opensource_fm-commonsys" groups="qcom,pdk-qcom" remote="octavi" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="octavi" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="octavi" />
   <project path="vendor/gms" name="platform_vendor_gms" remote="gitlab" clone-depth="1" />
