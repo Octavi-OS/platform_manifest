@@ -77,6 +77,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
   <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" groups="pdk" remote="octavi" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="octavi" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="octavi" />
   <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="octavi" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
